@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tiffany Costello - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Tiffany Costello
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://i.ibb.co/8dFGMCq/taking-a-photo.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Tiffany! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            Throughout my professional tenure, I have demonstrated adept collaboration with clients, provided leadership to teams, 
+            and orchestrated the implementation of strategic initiatives, underscoring my unwavering dedication to delivering superior 
+            customer service, analytical excellence, and adaptability within dynamic business landscapes. Eager to transition into the 
+            realm of Development, I am actively pursuing further education through Coursera and the 
+            IBM Full Stack Software Developer Professional Certificate, attesting to my commitment to continuous learning and professional growth.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>1 year experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>Less than 1 year experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg"/>
+            <h6>CSS</h6>
+            <p>Less than 1 yaer experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/Microsoft_Office_SharePoint_%282019%E2%80%93present%29.svg"/>
+            <h6>SharePoint</h6>
+            <p>5 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Creative_Cloud.svg"/>
+            <h6>Adobe Creative Cloud</h6>
+            <p>2 years experience</p>
+        </div>
+
+        <div class="skill">
+            <img src="https://getlogovector.com/wp-content/uploads/2019/06/ibm-cloud-logo-vector.png"/>
+            <h6>IBM Cloud</h6>
+            <p>Less than 1 year experience</p>
+        </div>
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Travel Site</h3>
+            <ul>
+              <li>Developed a personal website using HTML to neatly document travel details for 
+                  a straightforward and user-friendly experience.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>New Client Implementation</h3>
+            <ul>
+              <li>Navigated the strategic planning, execution, and oversight of tasks to seamlessly introduce and 
+                  integrate new systems, processes, and initiatives within the assigned organization, with a commitment to 
+                  achieving set objectives and ensuring stakeholder satisfaction.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>System Enhancement</h3>
+            <ul>
+              <li>Creating meticulous testing scenarios, meticulously outlining diverse scenarios and conditions 
+                  to rigorously assess the functionality, performance, and resilience of system enhancement projects, ensuring a robust 
+                  and error-resistant end product.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I enthusiastically recommend Tiffany for leadership in implementation projects. 
+          Her exceptional ability to strategize, execute precisely, and oversee with vigilance 
+          brings cutting-edge initiatives to life, earning well-deserved acclaim.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+            Tiffany consistently sets the stage for resounding success, earning well-deserved 
+            acclaim from stakeholders for her visionary and results-driven leadership.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I highly recommend Tiffany for her outstanding role in our website development project. 
+          Her meticulous attention to detail, technical proficiency, and dedication ensured a successful and impressive outcome.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Your recommendation is appreciated, thank you!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
